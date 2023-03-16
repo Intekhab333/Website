@@ -1,0 +1,93 @@
+body {
+    background-color: lightgray;
+
+}
+
+.container {
+ width: 700px;
+ margin: 0 auto;
+ background: beige;
+}
+
+.header {
+   padding: 25px 0px 25px 10px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid darkgreen;
+    border-style: double;
+}
+
+.menu {
+    background-color: rgba(184, 135, 11, 0.419);
+    padding:10px 5px 10px 15px;
+
+}
+#home-image img{
+   width: 450px;;
+   height: 225px;
+   border-radius: 0px;
+   padding: 25px 0 0 0;
+
+
+}
+
+.menu a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: medium;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .menu a:hover {
+    color: lightgreen;
+ }
+ aside {
+    float: left;
+    width: 120px;
+    padding: 0 0 15px;
+ }
+ h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen;
+    font-weight: 400;
+    margin:0px;
+    padding: 25px 5px 0px 20px ;
+ }
+ .main {
+  margin: 0%;
+  padding: 0px 10px 10px 15px;
+  color: darkolivegreen;
+  font-size:18 px;;
+  line-height: 18px;
+  text-emphasis: justify;
+ }
+
+ footer {
+    padding: 16px 10px 16px 10px;
+    background:rgb(243, 213, 177);
+    font-family:sans-serif;
+    text-align: left;
+ }
+ .link-title {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+   text-align: left;
+   text-decoration:right;
+   color: blue;
+
+ }
+ #about-page #home-image{
+   width: 5px;
+   padding: 0px 5px ;
+   float: left;
+
+ }
+ #about-page #profile-info {
+ float: right;
+ width: 20%;
+ margin: 20px;
+ }
+ #about-page .description {
+   clear: both;
+ }
